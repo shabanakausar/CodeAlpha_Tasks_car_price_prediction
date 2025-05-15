@@ -1,0 +1,37 @@
+# Core packages
+numpy
+pandas
+scipy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Machine Learning
+scikit-learn
+xgboost
+lightgbm
+statsmodels
+# Time Series Analysis (for Unemployment dataset)
+fbprophet
+pystan
+canvas
+reportlab
+
+# Deep Learning (optional)
+tensorflow
+keras
+
+# Jupyter and Notebook support
+jupyter
+ipykernel
+
+# Utilities
+tqdm
+joblib
+python-dotenv
+
+# Data processing
+category-encoders
+imbalanced-learn
