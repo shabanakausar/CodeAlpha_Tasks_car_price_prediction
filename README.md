@@ -1,26 +1,26 @@
-Car Price Prediction with Machine Learning
+# 📊Car Price Prediction with Machine Learning
 
-Project Overview
+## Project Overview
 This project predicts used car prices using machine learning. It includes data cleaning, exploratory analysis, feature engineering, and model comparison to accurately estimate vehicle values based on features like age, mileage, fuel type, and transmission.
 
-Key Features
-Data cleaning pipeline removing bikes and outliers
+### Key Features
+. Data cleaning pipeline removing bikes and outliers
 
-Comprehensive EDA with visualizations
+. Comprehensive EDA with visualizations
 
-Feature engineering (vehicle age calculation)
+. Feature engineering (vehicle age calculation)
 
-Comparison of 5 regression models
+. Comparison of 5 regression models
 
-Hyperparameter tuning with GridSearchCV
+. Hyperparameter tuning with GridSearchCV
 
-Feature importance analysis
+. Feature importance analysis
 
-Prediction function for new inputs
+. Prediction function for new inputs
 
-Automated PDF report generation
+. Automated PDF report generation
 
-Dataset
+### Dataset
 The dataset contains used car listings with:
 
 Target: Selling_Price
@@ -29,7 +29,7 @@ Features: Present_Price, Driven_kms, Fuel_Type, Selling_type, Transmission, Owne
 
 Cleaned size: 290 records × 8 features
 
-Requirements
+### Requirements
 Python 3.6+
 
 pandas, numpy
@@ -77,14 +77,14 @@ price = predict_car_price(
     Owner=0,
     Vehicle_Age=2
 )
-Results
+### Results
 Best performing model: Random Forest
 
 RMSE: 1.72
 
 R² Score: 0.91
 
-Key findings:
+### Key findings:
 
 Present price and vehicle age are most important features
 
