@@ -1,4 +1,5 @@
 Car Price Prediction with Machine Learning
+
 Project Overview
 This project predicts used car prices using machine learning. It includes data cleaning, exploratory analysis, feature engineering, and model comparison to accurately estimate vehicle values based on features like age, mileage, fuel type, and transmission.
 
